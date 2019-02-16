@@ -23,7 +23,7 @@
  
     * You can change the number of iterations in **block 4** (the lower the iteration is the faster it runs)
     * Default iteration (20) takes 15 mins to run per image
-    * You can use the **Style_transfer_keras** project to how many iteration you need to produce the result you like 
+    * You can use the **Style_transfer_keras** project to test how many iteration you need to produce the result you like 
     * The **Intermediate** folder contains all the images produced for each iteration
     * The intermediate files will be named in this format: [style1_style2_style3_sourceImgName]
     * **The final result will be the images in the SouceImg folder** (it overwrites)
