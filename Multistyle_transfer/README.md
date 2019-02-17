@@ -23,13 +23,28 @@
     **`scp -i [key.pem] -r ~/path/Multistyle_transfer ubuntu@public_DNS:~/ArtML`**
  
  6. Go to Jupyter notebook and run the code
+    
+    * Make sure the environment is in **conda_tensorflow_p27**
+    ![alt text](https://github.com/frank113/art-ml-project1/blob/master/Multistyle_transfer/Reference/Env.JPG)
+    
+    * If environment is off go to **Kernel > Change Kernel > Environment(conda_tensorflow_p27) **
  
     * You can change the number of iterations in **block 4** (the lower the iteration is the faster it runs)
     ![alt text](https://github.com/frank113/art-ml-project1/blob/master/Multistyle_transfer/Reference/Block4.JPG)
     
+    
+    
     * Default iteration (20) takes 15 mins to run per image
     
     * You can use the **Style_transfer_keras** project to test how many iteration you need to produce the result you like 
+    
+    * To assign different iterations for different style:
+      
+      Go to **block 4** and **13** and do the fllowing edit
+      ![alt text](https://github.com/frank113/art-ml-project1/blob/master/Multistyle_transfer/Reference/StyleIter1.JPG)
+      ![alt text](https://github.com/frank113/art-ml-project1/blob/master/Multistyle_transfer/Reference/StyleIter2.JPG)
+      
+      
     
     * The **Intermediate** folder contains all the images produced for each iteration
     
