@@ -27,7 +27,7 @@
     * Make sure the environment is in **conda_tensorflow_p27**
     ![alt text](https://github.com/frank113/art-ml-project1/blob/master/Multistyle_transfer/Reference/Env.JPG)
     
-    * If environment is off go to **`Kernel > Change Kernel > Environment(conda_tensorflow_p27)`**
+    * If environment is off, go to **`Kernel > Change Kernel > Environment(conda_tensorflow_p27)`**
  
     
     
@@ -41,8 +41,10 @@
     
     * To assign different iterations for different style:
       
-      Go to **block 4** and **13** and do the fllowing edit
+      Go to **block 4** and **13** and do the fllowing edit (`style_iterations = [style1_iteration,style2_iteration,style3_iteration]`)
       ![alt text](https://github.com/frank113/art-ml-project1/blob/master/Multistyle_transfer/Reference/StyleIter1.JPG)
+      
+      
       ![alt text](https://github.com/frank113/art-ml-project1/blob/master/Multistyle_transfer/Reference/StyleIter2.JPG)
       
       
