@@ -27,7 +27,7 @@
     * Make sure the environment is in **conda_tensorflow_p27**
     ![alt text](https://github.com/frank113/art-ml-project1/blob/master/Multistyle_transfer/Reference/Env.JPG)
     
-    * If environment is off go to **Kernel > Change Kernel > Environment(conda_tensorflow_p27) **
+    * If environment is off go to **`Kernel > Change Kernel > Environment(conda_tensorflow_p27)`**
  
     * You can change the number of iterations in **block 4** (the lower the iteration is the faster it runs)
     ![alt text](https://github.com/frank113/art-ml-project1/blob/master/Multistyle_transfer/Reference/Block4.JPG)
