@@ -20,7 +20,7 @@
    
  5. Open a new terminal to transer the project to AWS EC2
  
-    **`scp -i “ml_art.pem” -r ~/path/Multistyle_transfer ubuntu@public_DNS:~/ArtML`**
+    **`scp -i [key.pem] -r ~/path/Multistyle_transfer ubuntu@public_DNS:~/ArtML`**
  
  6. Go to Jupyter notebook and run the code
  
@@ -39,5 +39,5 @@
     
  7. Download the final images
  
-    **`scp -i “ml_art.pem” -r ubuntu@public_DNS:~/ArtML/Multistyle_transfer localpath`**
+    **`scp -i [key.pem] -r ubuntu@public_DNS:~/ArtML/Multistyle_transfer localpath`**
  
